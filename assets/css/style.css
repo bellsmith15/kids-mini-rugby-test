@@ -17,12 +17,14 @@ body {
 h1,h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    color:rgb(33, 65, 33);
+    color:tomato;
+    /* color:rgb(27, 75, 27); */
 }
 
 #title {
     float: left;
     font-size: 400%;
+    margin-left: 50px;
 }
 
 /* navigation links */
@@ -37,7 +39,7 @@ h1,h2 {
 
 #menu a {
     text-decoration: none;
-    color:rgb(33, 65, 33);
+    color:rgb(27, 75, 27);
 }
 
 #menu a:hover {
@@ -55,7 +57,7 @@ h1,h2 {
 }
 
 
-/* playing rugby image */
+/* playing rugby image and cover text */
 
 #playing-rugby-image-outer {
     height: 600px;
@@ -63,8 +65,74 @@ h1,h2 {
     overflow: hidden;
 }
 
+#cover-text, #cover-text h2 {
+    color:white;
+}
+
 #playing-rugby-image {
     height: 800px;
     width: 100%;
     background: url('../images/two-boys-rugby.jpg') no-repeat center center;
+}
+
+#welcome {
+    text-align: center;
+    margin: 60px 0;
+    font-size: 350%;
+    height: 275px;
+}
+
+#about-us {
+    height: 800px;
+}
+
+#about-1 {
+    padding-top: 50px;
+    width: 99%;
+    float: left;
+    margin-left: 100px;
+    font-size: 280%;
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    text-align:justify;
+    height: 110px;
+    padding: 20px 20px 30px;
+    background-color:rgb(243, 132, .7);
+    bottom: 800px;
+    right: 135px;
+    position: absolute;
+}
+
+
+/* List of Training in Sessions */
+
+
+
+/* Table of Dates and Times */
+
+table {
+	width: 50%;
+    margin: 20px 30px 20px;
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr, th, td {
+	text-align: center;
+}
+
+th {
+    font:bolder;
+}
+
+th, td {
+	border: 1px solid darkslategray;
+	padding: 15px;
 }
