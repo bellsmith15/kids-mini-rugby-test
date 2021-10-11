@@ -110,7 +110,10 @@ h1,h2 {
 
 /* List of Training in Sessions */
 
+#lists {
+    color: blueviolet;
 
+}
 
 /* Table of Dates and Times */
 
