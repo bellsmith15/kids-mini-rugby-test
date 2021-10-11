@@ -55,9 +55,13 @@ h1,h2 {
 }
 
 
+/* playing rugby image */
 
-
-
+#playing-rugby-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
 
 #playing-rugby-image {
     height: 800px;
