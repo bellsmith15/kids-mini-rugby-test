@@ -116,16 +116,38 @@ h2 {
 
 /* List of Training in Sessions */
 
-#lists {
-    color: blueviolet;
+.lists ul {
+    text-align:center;
+    list-style: none;
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%
+    width: 99%;
+    height: 100%;
+}
 
+.lists ul li {
+    position: relative;
+    float: left;
+    display: block;
+    right: 50%
+    color: blueviolet;
+    /* width: 99%;
+    height: 100%; */
 }
 
 /* Table of Dates and Times */
 
+.groups-style {
+    margin: 0 auto 0 auto;
+    font-size: 200%;
+}
+
 table {
-    width: 50%;
-    margin: 20px 30px 20px;
+    padding-left: 50px;
+    width: 99%;
+    height: 100%;
 }
 
 tr {
@@ -146,7 +168,7 @@ th {
 th,
 td {
     border: 1px solid rgb(243, 132, .7);
-    padding: 15px;
+    padding: 5px;
 }
 
 
@@ -170,13 +192,9 @@ td {
 
 /* Form */
 
-#signup {
-    text-align: center;
-    font-size: 350%;
-    /* margin: 200 20; */
-    margin-left: 20px;
-}
 
+
+  /*whole of the form*/
 .form-section {
     clear: left;
     background: url('../images/two-boys-rugby.jpg') no-repeat center center;
@@ -185,14 +203,19 @@ td {
     height: 900px;
 }
 
+  /*all text in the form*/
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(12, 58, 31, 0.411);
-    max-width: 500px;
+    max-width: 600px;
     position: absolute;
     left: 10%;
     padding: 30px;
+}
+
+#info {
+
 }
 
 .signup-form h2 {
