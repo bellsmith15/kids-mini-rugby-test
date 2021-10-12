@@ -163,16 +163,23 @@ td {
     /*removes a vertical gap*/
 }
 
-#photos>img {
+#photos >img {
     width: 100%;
     /*widths of images all set to 100%*/
 }
 
 /* Form */
 
+#signup {
+    text-align: center;
+    font-size: 350%;
+    /* margin: 200 20; */
+    margin-left: 20px;
+}
+
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url('../images/two-boys-rugby.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -181,8 +188,8 @@ td {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    background-color: rgba(12, 58, 31, 0.411);
+    max-width: 500px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -199,12 +206,12 @@ td {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 2px solid #fafafa;
     border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #154b27;
 }
 
 .join-button {
@@ -213,14 +220,14 @@ td {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #154b27;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #154b27;
 }
 
 
@@ -251,4 +258,28 @@ td {
     float: left;
     margin-left: 100px;
     font-size: 280%;
+}
+
+/* Footer */
+
+.social-networks {
+    height: 150px;
+    text-align: right;
+}
+
+.social-networks {
+    text-align: center;  
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 }
