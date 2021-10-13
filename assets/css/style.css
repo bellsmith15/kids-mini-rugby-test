@@ -32,14 +32,13 @@ h3 {
 #logo {
     float: left;
     font-size: 600%;
-    margin-left: 50px;
     color: rgb(27, 75, 27);
 }
 
 /* navigation links - same as running */
 
 #nav-bar {
-    font-size: 300%;
+    font-size: 400%;
     font-weight: bolder;
 }
 
@@ -98,9 +97,10 @@ h3 {
     background-color: rgba(224,32,70,255);
     /* background-color: rgb(177, 23, 49); */
     /* background-color: rgb(243, 132, .7); */
-    top: 500px;
-    right: 135px;
+    top: 2500px;
+    left: 1050px;
     position: absolute;
+    opacity: 80%;
 }
 
 #cover-link {
@@ -137,20 +137,53 @@ h3 {
     font-size: 900%;
     height: 200px;
     font-weight: bold;
-
-    top: 200px;
-    left: 400px;
+    top: 250px;
+    left: 900px;
     position: absolute;
-    color: rgb(27, 75, 27);
+    font:bold;
+    color: whitesmoke;
+    /* color: rgba(224,32,70,255); */
+    /* color:white */
+    background-color: rgba(224,32,70,255);
+    text-align: justify;
+    padding: 0 50px;
+    position: absolute;
+    opacity: 80%;
 }
 
-#about-us-text {
-    padding-top: 50px;
+#about-us-text1 {
+    top: 1750px;
+    left: 450px;
+    font-size: 600%;
+    width: 27%;
+    position: absolute;
+    /* color: rgb(27, 75, 27); */
+    /* color: rgba(224,32,70,255); */
+    color: whitesmoke;
+    font: bold;
+}
+
+
+#about-us-text2 {
+    top: 1700px;
+    left: 3600px;
+    font-size: 600%;
+    width: 27%;
+    position: absolute;
+    color: rgb(27, 75, 27);
+    /* color: rgba(224,32,70,255); */
+    /* color: whitesmoke; */
+    font: bold;
+}
+
+
+
+    /* padding-top: 50px;
     width: 99%;
     float: left;
     font-size: 350%;
     margin: 0 auto;
-    text-align: center;
+    text-align: center; */
 }
 
 
@@ -197,9 +230,11 @@ h3 {
 
 /* Footer and Social Media - from Love Running */
 
-footer {
+footer > p {
+
     height: 200px;
-    margin-bottom: 5px;
+    bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .social-networks a {
