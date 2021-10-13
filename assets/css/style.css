@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #eeeeee;
+    background-color: #f8f8f8;
+    /* background-color: #1b251d */
     font-family: Nunito, sans-serif;
     font-weight: 300;
     color: darkslategray
@@ -19,7 +20,8 @@ h1,
 h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    color: rgb(243, 132, 4);
+    color:rgba(224,32,70,255);
+    /* color: rgb(243, 132, 4); */
     /* color:rgb(27, 75, 27); */
 }
 
@@ -29,8 +31,9 @@ h3 {
 
 #logo {
     float: left;
-    font-size: 500%;
+    font-size: 600%;
     margin-left: 50px;
+    color: rgb(27, 75, 27);
 }
 
 /* navigation links - same as running */
@@ -51,11 +54,11 @@ h3 {
 }
 
 #nav-bar a:hover {
-    border-bottom: 8px solid rgb(243, 132, 4);
+    border-bottom: 5px solid rgba(224,32,70,255);
 }
 
 .active {
-    border-bottom: 8px solid rgb(243, 132, 4);
+    border-bottom: 5px solid rgba(224,32,70,255);
 }
 
 #nav-bar li {
@@ -67,14 +70,16 @@ h3 {
 /* playing rugby image and cover text - same as running and then added link to sign up*/
 
 #playing-rugby-image-outer {
-    height: 600px;
+    height: 4000px;
     width: 100%;
     overflow: hidden;
 }
 
 #playing-rugby-image {
-    height: 800px;
-    width: 100%;
+    height: 3500px;
+    width: 90%;
+    position:absolute;
+    margin-left: 300px;
     background: url('../images/two-boys-rugby.jpg') no-repeat center center;
 }
 
@@ -90,7 +95,9 @@ h3 {
     text-align: justify;
     height: 110px;
     padding: 20px 20px 30px;
-    background-color: rgb(243, 132, .7);
+    background-color: rgba(224,32,70,255);
+    /* background-color: rgb(177, 23, 49); */
+    /* background-color: rgb(243, 132, .7); */
     top: 500px;
     right: 135px;
     position: absolute;
@@ -127,9 +134,14 @@ h3 {
 
 #about-us {
     text-align: center;
-    margin: 60px 0;
-    font-size: 400%;
-    height: 100px;
+    font-size: 900%;
+    height: 200px;
+    font-weight: bold;
+
+    top: 200px;
+    left: 400px;
+    position: absolute;
+    color: rgb(27, 75, 27);
 }
 
 #about-us-text {
@@ -183,9 +195,11 @@ h3 {
     margin-bottom: 5px;
 }
 
+/* Footer and Social Media - from Love Running */
 
 footer {
     height: 200px;
+    margin-bottom: 5px;
 }
 
 .social-networks a {
@@ -204,10 +218,17 @@ footer {
     font-size: 100px;
     margin: 1%;
     padding: 5%;
-    color: rgb(243, 132, 4);
+    color: rgb(223, 21, 21);
+    /* color: rgb(243, 132, 4); */
 }
 
 /* Table of Dates and Times */
+
+#groups {
+    height: 600%;
+    width: 40% ;
+    
+}
 
 .groups-style {
     margin: 0 auto 0 auto;
@@ -237,9 +258,11 @@ th {
 
 th,
 td {
-    border: 1px solid rgb(243, 132, .7);
+    border: 1px solid rgba(224,32,70,255);
     padding: 5px;
 }
+
+
 
 
 /* gallery */
@@ -378,5 +401,4 @@ footer {
     font-size: 100px;
     margin: 1%;
     padding: 5%;
-    color: rgb(243, 132, 4);
-}
+    color: rgba(224,32,70,255);
