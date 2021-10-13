@@ -29,7 +29,7 @@ h3 {
 
 #logo {
     float: left;
-    font-size: 450%;
+    font-size: 500%;
     margin-left: 50px;
 }
 
@@ -42,7 +42,7 @@ h3 {
 
 #nav-bar,
 #logo {
-    line-height: 100px;
+    line-height: 180px;
 }
 
 #nav-bar a {
@@ -64,8 +64,7 @@ h3 {
     margin-right: 50px;
 }
 
-
-/* playing rugby image and cover text */
+/* playing rugby image and cover text - same as running and then added link to sign up*/
 
 #playing-rugby-image-outer {
     height: 600px;
@@ -73,16 +72,38 @@ h3 {
     overflow: hidden;
 }
 
-#cover-text,
-#cover-text h2 {
-    color: white;
-}
-
 #playing-rugby-image {
     height: 800px;
     width: 100%;
     background: url('../images/two-boys-rugby.jpg') no-repeat center center;
 }
+
+#cover-text,
+#cover-text h2 {
+    color: white;
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+    height: 110px;
+    padding: 20px 20px 30px;
+    background-color: rgb(243, 132, .7);
+    top: 500px;
+    right: 135px;
+    position: absolute;
+}
+
+#cover-link {
+    color: rgb(27, 75, 27);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+
 
 /* Put in new photos here when have downloaded off internet for free */
 #replace-image {
@@ -101,76 +122,65 @@ h3 {
 /* About Us text */
 
 #welcome {
-    text-align: center;
-    margin: 60px 0;
-    font-size: 350%;
-    height: 200px;
-}
-
-#about-us {
     height: 800px;
 }
 
-#about-1 {
+#about-us {
+    text-align: center;
+    margin: 60px 0;
+    font-size: 400%;
+    height: 100px;
+}
+
+#about-us-text {
     padding-top: 50px;
     width: 99%;
     float: left;
-    margin-left: 100px;
-    font-size: 280%;
+    font-size: 350%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#cover-text {
-    font-size: 200%;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    text-align: justify;
-    height: 110px;
-    padding: 20px 20px 30px;
-    background-color: rgb(243, 132, .7);
-    bottom: 800px;
-    right: 135px;
-    position: absolute;
-}
 
-#cover-link {
-    color: rgb(27, 75, 27);
-    font-weight: bolder;
-    text-decoration: none;
-}
 
 
 /* List of Training in Sessions */
 
 #session-list {
-    height: 200px;
+    height: 500px;
     font-size: 200%;
 }
 
-
 #What-we-offer {
-    margin-left: 20%;
-    padding-top: 50px;
-    width: 80%;
+    margin-left: 10%;
+    padding-top: 80px;
+    width: 40%;
     float: left;
+    text-align: center;
 }
 
-.lists ul {
+.list-offer ul,
+.list-unders ol {
     text-align: left;
-    text-indent: 50px;
+    spac
+    text-indent: 40px;
     position: relative;
     float: left;
     display: block;
     left: 40%;
     height: 100%;
+    padding-bottom: 100px;
 }
 
-.lists ul li {
+.list-offer ul li,
+.list-unders ol li {
     position: relative;
     float: left;
     display: block;
     width: 99%;
     height: 100%;
     font-size: 50px;
+    margin-bottom: 5px;
 }
 
 
@@ -259,7 +269,7 @@ td {
     background-size: cover;
     background-position: center;
     height: 900px;
-    position:sticky; 
+    position: sticky;
     /* sticky check when do Responsive code */
 }
 
